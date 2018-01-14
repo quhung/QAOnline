@@ -10,11 +10,17 @@
 
 ## 使用方法
 - root 手机并且安装 xposed，这个自行 google 教程
+- 修改代码里面`Constants`的`BASE_URL`为自己 pc 端接收题目的程序的 url
 - clone，打包，安装到手机即可
+    打包:进入主工程目录，运行 `./gradlew :app:assembleRelease`，
+    打包结束后，直接安装`app/build/outputs/apk/debug/`下面的`app-release.apk`即可
 - 最后在 xposed installer里面勾选`QAOnline`，重启即可
 
 ## 原理
 原理很简单，hook 相应 app 代码，直接在长连接推送过来的地方拦截数据，然后发送请求到电脑
+
+## 版权说明
+ 该项目仅供交流学习使用，严禁商业用途.
 
 
 
