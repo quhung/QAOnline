@@ -1,5 +1,6 @@
 # QAOnline
 芝士达人提取题目apk，该项目只是用来提取芝士超人题目的`module`，具体怎样百度，建议配合`Github`上其他 py 代码，实现答题。
+自用的一个后端程序地址[TopSupAssistant](https://github.com/quhung/TopSupAssistant)
 ## 优点
 - 速度快，与目前流行的ocr相比，减少了`adb pull`和 ocr 识别的时间
 - free,不用再用百度的ocr识别
